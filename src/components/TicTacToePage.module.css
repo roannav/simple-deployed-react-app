@@ -1,0 +1,41 @@
+body {
+  background-color: antiquewhite;
+  font: 16px "Arial", sans-serif;
+  margin: 1em 2em;
+}
+
+.page {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Butterfly Kids', cursive;
+  font-size: 2rem;
+}
+
+.message {
+  font-size: 1rem;
+  font-weight: bold;
+  color: darkviolet;
+  margin-bottom: 0.8em;
+}
+
+.button {
+  background-color: darkviolet;
+  border: none;
+  border-radius: 0.375em;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.8em;
+  padding: 0.6em 1.1em;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+    opacity: .75;
+}

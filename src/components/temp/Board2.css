@@ -1,0 +1,45 @@
+body {
+  background-color: antiquewhite; /**/
+  font: 16px "Arial", sans-serif; /* */
+  margin: 2em; /**/
+}
+
+.board-rows {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.box {
+  background: #fff;
+  border: 0.1875em solid blue; /**/
+  border-radius: 0.375em;
+  color: red; /**/
+  float: left;
+  font-size: 1.5rem; /**/
+  font-weight: bold;
+  line-height: 2.125rem; /**/
+  height: 2.125rem; /**/
+  /*
+    */
+  margin-right: -3px;
+  margin-top: -3px;
+  padding: 0;
+  text-align: center;
+  width: 2.125rem; /**/
+}
+
+.box:focus {
+  outline: none;
+}
+
+/*
+  .kbd-navigation .box:focus {
+    background: #ddd;
+  }
+  */
